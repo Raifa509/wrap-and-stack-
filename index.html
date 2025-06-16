@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrap & Stack</title>
+    <!-- fevicon -->
+    <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Pacifico&family=Playpen+Sans+Arabic:wght@100..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=WDXL+Lubrifont+TC&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar+home -->
+        <div id="homepage">
+            <!-- navbar -->
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="./media/logo.png" alt="logo" width="60px" height="60px">
+                    <span>Wrap & Stack</span>
+                </div>
+                <ul>
+                    <li class="listItem  fontstyle"><a href="#homepage">Home</a></li>
+                    <li class="listItem  fontstyle"><a href="#aboutus">About us</a></li>
+                    <li class="listItem  fontstyle"><a href="#menu">Menu</a></li>
+                    <li class="listItem  fontstyle"><a href="#contact">Contact</a></li>
+                </ul>
+                <div id="signin" class="fontstyle">
+                    <span>Sign in</span>
+                </div>
+            </nav>
+
+            <!-- home section -->
+            <div id="home-container">
+                <div id="home-left">
+                    <h1>Wrap It. <span style="color:#f46309; ;">Stack It. </span><br>Love It.</h1>
+                    <p><b><span style="font-size: 20px;">Hungry for something epic?</span></b><br> Our burgers and wraps
+                        bring the heat,the crunch,<br>and the flavor you deserve.</p>
+                   <a href="#menu">
+                        <button id="home-btn">
+                            Explore <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                        </button>
+                   </a>
+
+                </div>
+                <div id="home-right">
+                    <img src="./media/homeburger.png" alt="home burger">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- about us section -->
+        <section id="aboutus">
+            <div id="about-container">
+                <div id="about-innercontainer">
+                    <div id="about-left">
+                        <img src="./media/aboutus-burger.jpg" alt="">
+                    </div>
+                    <div id="about-right">
+                        <div id="about-heading">
+                            <p>About us</p>
+                        </div>
+                        <div id="about-para">
+                                <p>At Wrap & Stack, we’re all about bold flavors and satisfying bites.
+                                    From crispy wraps to juicy stacked burgers, our menu is crafted to bring you a
+                                    fresh, mouthwatering experience every time. Whether you’re dining in or ordering
+                                    online, we deliver fast, tasty food made with love and yes, delivery is always
+                                    free! Come hungry, leave happy.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- choose section -->
+        <section id="choose">
+            <div id="first-choose">
+                <p id="p1">Why <span style="color: #ed610a;">Choose us</span> </p>
+                <p id="p2">We bring passion, freshness, and flavor to every bite with quality <br>ingredients and expert
+                    craftsmanship.</p>
+            </div>
+            <div id="choose-container">
+
+                <div class="choose-card">
+                    <i class="fa-solid fa-burger fa-5x"></i>
+                    <h3>Delicious & Fresh</h3>
+                    <p>Enjoy freshly prepared wraps and burgers made with love and top-quality ingredients.</p>
+                </div>
+
+                <div class="choose-card">
+                    <i class="fa-solid fa-truck fa-5x"></i>
+                    <h3>Free Fast Delivery</h3>
+                    <p>Get your favorite meals delivered quickly to your doorstep with no extra cost.</p>
+                </div>
+
+                <div class="choose-card">
+                    <i class="fa-solid fa-mobile-screen-button fa-5x"></i>
+                    <h3>Easy Online Orders</h3>
+                    <p>Order your food online in just a few simple steps with our user-friendly platform.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- menu section -->
+        <section id="menu">
+            <div id="menu-section">
+                <div id="menu-heading">
+                    <p id="menu-p">Discover<strong> <span style="color: #f46309;">Your</span></strong> Favorite</p>
+                    <p id="menu-p2">Every bite is made to delight. Choose your perfect meal today.</p>
+                </div>
+                <!-- burger section -->
+                <div class="item-section">
+                    <p class="item-heading">Burgers</p>
+                    <div class="item-card">
+                        <div class="item-card-div">
+                            <img src="./media/7.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Classic Burger</h4>
+                                <p>Delicious beef patty with fresh veggies.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/6.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Cheese Overload</h4>
+                                <p>Juicy grilled beef loaded with melted cheddar cheese.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/3.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Spicy Fiesta</h4>
+                                <p>A fiery combo of jalapeños, spicy mayo, and crispy onions.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/4.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>BBQ Bacon Burger</h4>
+                                <p>Smoky BBQ sauce, crispy bacon, and tender grilled patty.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/8.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Veggie Delight</h4>
+                                <p>A healthy mix of grilled veggies and a plant-based patty.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/1.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Mushroom Swiss</h4>
+                                <p>Sautéed mushrooms and Swiss cheese over a juicy beef patty.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+                        <div class="item-card-div">
+                            <img src="./media/5.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Double Trouble</h4>
+                                <p>Two patties, double cheese, and extra everything for big appetites.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+
+                        <div class="item-card-div">
+                            <img src="./media/2.jpg" alt="">
+                            <div class="item-desc">
+                                <h4>Crispy Chicken Burger</h4>
+                                <p>Crunchy fried chicken with fresh lettuce.Soft bun and creamy mayo.</p>
+                                <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- wrap section -->
+                <div id="wrap-section">
+                    <div class="item-section">
+                        <p class="item-heading">Wraps</p>
+                        <div class="item-card">
+                            <div class="item-card-div">
+                                <img src="./media/w1.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Grilled Chicken Wrap</h4>
+                                    <p>Tender grilled chicken with fresh veggies and sauce.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w2.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Spicy Chicken Wrap</h4>
+                                    <p>Hot and spicy chicken strips with lettuce and chipotle mayo.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w3.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>BBQ Chicken Wrap</h4>
+                                    <p>Smoky BBQ chicken with onions and creamy slaw.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w4.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Peri Peri Chicken Wrap</h4>
+                                    <p>Zesty peri peri chicken with cabbage and spicy dressing.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w5.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Crispy Chicken Wrap</h4>
+                                    <p>Crunchy fried chicken with mayo and shredded lettuce.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w6.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Beef Shawarma Wrap</h4>
+                                    <p>Thin-sliced marinated beef with tahini and pickles.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+                            <div class="item-card-div">
+                                <img src="./media/w2.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Cheesy Beef Wrap</h4>
+                                    <p>Ground beef with melted cheese and sautéed peppers.</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+
+                            <div class="item-card-div">
+                                <img src="./media/w1.jpg" alt="">
+                                <div class="item-desc">
+                                    <h4>Classic Beef Wrap</h4>
+                                    <p>Seasoned beef strips with tomatoes and ranch dressing</p>
+                                    <button><i class="fa-solid fa-plus fa-2s"></i> Add</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <div id="contact-section">
+                <div id="contact-heading">
+                    <p>Get in <strong><span style="color: #f46309;">Touch</span></strong></p>
+                </div>
+                <div id="contact-container">
+                    <div id="contact-left">
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="contact-text">
+                                <strong>Shop Address:</strong><br>
+                                123 Food Street,<br> Flavor Town, Kakkanad
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="contact-text">
+                                <strong>Phone Number:</strong><br>
+                                +91 98765 43210
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <div class="contact-text">
+                                <strong>Working Hours:</strong><br>
+                                Mon-Sun: 10 AM – 10 PM
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="contact-text">
+                                <strong>Email Address:</strong><br>
+                                contact@wrapandstack.com
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="contact-right">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.5583272058!2d76.30948090185149!3d10.008813464699726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1749043158640!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div id="contact-icons">
+                    <div class="icons">
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-x-twitter fa-2x"></i>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-brands fa-linkedin-in fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer id="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 wrap & stack. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
